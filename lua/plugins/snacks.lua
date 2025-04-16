@@ -45,7 +45,6 @@ return {
             ---@type table<string, snacks.win.Config>
             notification = {
                 wo = {
-                    relative = "editor",
                     wrap = true,
                 },
             },
