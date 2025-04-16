@@ -21,7 +21,6 @@ return {
                 files = {
                     hidden = true,
                     ignored = true,
-                    follow = true,
                 },
                 explorer = {
                     hidden = true,
