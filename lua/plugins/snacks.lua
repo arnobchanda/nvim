@@ -1,3 +1,4 @@
+-- Override of pre-installed snacks.nvim
 return {
     "folke/snacks.nvim",
     priority = 1000,

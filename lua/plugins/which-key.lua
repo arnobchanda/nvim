@@ -1,3 +1,4 @@
+-- Override of pre-installed which-key
 return {
     "folke/which-key.nvim",
     event = "VeryLazy",
