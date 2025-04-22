@@ -27,6 +27,9 @@ require("lazy").setup({
         { import = "lazyvim.plugins.extras.editor.harpoon2" },
         { import = "lazyvim.plugins.extras.lang.clangd" },
         { import = "lazyvim.plugins.extras.lang.python" },
+        { import = "lazyvim.plugins.extras.lang.json" },
+        { import = "lazyvim.plugins.extras.lang.toml" },
+        { import = "lazyvim.plugins.extras.lang.markdown" },
         { import = "lazyvim.plugins.extras.ui.treesitter-context" },
         -- import/override with your plugins
         { import = "plugins" },
