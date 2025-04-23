@@ -40,5 +40,9 @@ map("v", "<A-Down>", ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
 
 --Code folding
 map("n", "<leader>czf", "za", { desc = "Toggle Collapse function" })
-map("n", "<leader>czo", "zR", { desc = "Toggle function fold" })
+map("n", "<leader>czo", "zR", { desc = "Open All folds" })
 map("n", "<leader>czc", "zM", { desc = "Close All folds" })
+
+-- Dont reach for escape key
+map("i", "jj", "<Esc>", { noremap = true, silent = true })
+map("i", "jk", "<Esc>", { noremap = true, silent = true })
