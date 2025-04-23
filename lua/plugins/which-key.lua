@@ -11,6 +11,7 @@ return {
                 mode = { "n", "v" },
                 { "<leader>t", group = "tasks", icon = { icon = "📋", color = "red" } },
                 { "<leader>cz", group = "Folds" },
+                { "<leader>cp", group = "Preview definitions" },
             },
         },
     },
