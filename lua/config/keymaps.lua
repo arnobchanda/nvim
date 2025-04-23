@@ -37,3 +37,8 @@ map("v", "<A-Up>", ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
 map("n", "<A-Down>", ":m .+1<CR>==", { noremap = true, silent = true })
 map("i", "<A-Down>", "<Esc>:m .+1<CR>==gi", { noremap = true, silent = true })
 map("v", "<A-Down>", ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
+
+--Code folding
+map("n", "<leader>czf", "za", { desc = "Toggle Collapse function" })
+map("n", "<leader>czo", "zR", { desc = "Toggle function fold" })
+map("n", "<leader>czc", "zM", { desc = "Close All folds" })

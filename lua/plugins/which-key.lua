@@ -9,7 +9,8 @@ return {
         spec = {
             {
                 mode = { "n", "v" },
-                { "<leader>t", group = "tasks", icon = { icon = "📋", color = "red" }},
+                { "<leader>t", group = "tasks", icon = { icon = "📋", color = "red" } },
+                { "<leader>cz", group = "Folds" },
             },
         },
     },
